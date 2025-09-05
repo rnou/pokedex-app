@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style/pokedex.css">
+
+  <title>Pokédex</title>
+</head>
+<body>
+  <header class="header-content">
+    <h1>Pokédex</h1>
+  </header>
+
+  <main id="content-box">
+    <!-- Left side, display pokemon info -->
+    <section id="pokemon-info">
+      <img id="pokemon-img" src="" alt="Pokemon">
+      <h2 id="pokemon-name">Select a Pokémon</h2>
+      <div id="pokemon-id"></div>
+      <div id="pokemon-types"></div>
+      <div id="pokemon-stats"></div>
+      <div class="welcome-message">
+        Choose a Pokémon from the list to see its details!
+      </div>
+    </section>
+    
+    <!-- Right side, display pokemon list -->
+    <section id="pokemon-list">
+      <div class="pokemon-grid" id="pokemon-grid"></div>
+      <button id="load-more">Load More Pokémon</button>
+    </section>
+  </main>
+  
+
+  <script src="script/pokedex.js"></script>
+</body>
+</html>
